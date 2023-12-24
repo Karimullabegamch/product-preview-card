@@ -1,0 +1,83 @@
+
+/* @import url(https://fonts.google.com/specimen/Montserrat); */
+@import url(https://fonts.google.com/specimen/Fraunces);
+*
+{
+    margin: 0 ;
+    box-sizing: border-box;
+    font-family:  Fraunces ;
+}
+body
+{
+    background-color: hsl(30, 38%, 92%);
+
+}
+
+.continer
+{
+    max-width: 80vh;
+    background-color: hsl(0, 0%, 100%);
+    min-height: 20vh;
+    margin: 0 auto;
+    margin-top: 120px;
+    display: flex;
+    border-radius: 20px;
+   
+}
+.img
+{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 19px;
+}
+.left
+{
+    margin-left: 30px;
+}
+.head
+{
+    margin-top: 19px;
+    margin-bottom: 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.continer h2{
+    margin-bottom: 20px;
+    color: hsl(212, 21%, 14%);
+    font-weight: 1000;
+    font-size: 35px;
+}
+.p
+{
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 25px;
+    color: hsl(228, 12%, 48%);
+}
+.price
+{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+}
+.pr{
+    color: hsl(158, 36%, 37%);
+    font-size: 40px;
+    font-weight: 1000;
+    
+    
+}
+
+
+.cart
+{
+  margin-bottom: 10px;
+   background-color: hsl(158, 36%, 37%);
+   border-radius: 8px;
+   text-align: center;
+   padding: 15px;
+   color: hsl(0, 0%, 100%);
+  
+}
+
